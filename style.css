@@ -5,7 +5,61 @@
   left:0;
   right:0;
  }*/
- #content{
+  #background{
+    position: fixed;
+    background-image: url("images/sky.png");
+    background-size: 100% 100%;
+  }
+  #responseBox{
+   background-color: lightgrey;
+   display:inline-block;
+   height: 150px;
+    width: 500px;
+    border: 10px solid grey;
+    margin: 0px;
+    border-radius: 10px;
+    z-index:0;
+  }
+  #responseContent{
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   margin:15px;
+  }
+  #inputBox{
+    background-color: lightgrey;
+    display:inline-block;
+    width: 500px;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+    z-index: 0;
+       position:absolute;
+    bottom:-25px;
+  }
+  #inputArea{
+   width:450px;
+   height:30px;
+   outline:none;
+   resize:none;
+   vertical-align: bottom
+  }
+  #enterButton{
+   background-color: transparent;
+   border-color: transparent;
+   outline:none;
+   height:35px;
+   width:35px;
+   vertical-align: bottom;
+  }
+  #buttonImg{
+  }
+  #picture{
+  z-index:-1;
+  }
+  #sprite{
+   height:651px;
+   width: 500px;
+   z-index:-1;
+  }
+/* #content{
   width:500px;
  }
  #rectangle{
@@ -25,7 +79,7 @@
  #arrow2{
   transform:-1,-1;
  }
- 
+ */
  /*you had to google how to make a box lul?????????????????????????*/
  
  /* dont talk to me like that css abuser >:( */

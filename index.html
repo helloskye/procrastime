@@ -3,22 +3,27 @@
   <meta charset="utf-8">
   <title>Procastime</title>
   <link rel="stylesheet" href="style.css" type="text/css" />
-  <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="script.js"></script>
  </head>
 <body>
-    <div id="content">
-    <!--<div id="wrapper"></div>-->
-    <div id="header">
-        <a href="page2.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Circle_arrow_left_font_awesome.svg/2000px-Circle_arrow_left_font_awesome.svg.png" id="arrow1" class="arrows"></img></a>
-    </div>
-    <div id="rectangle">
-    <p>i-i-its not like i like you or anything b-b-b-baka!.exe</p>
-    </div>
-    <div id="footer"> <!--The input & enter area goes in here.-->
-    <!--Put the input here.-->
-    <!--Button goes next to it here.-->
-    <button id="enter"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Circle_arrow_left_font_awesome.svg/2000px-Circle_arrow_left_font_awesome.svg.png" id="arrow2" class="arrows"></img></button>
-    </div>
-    </div>
+ <div id="content">
+     <div id="background">
+   <div id="responseBox">
+       <p id="responseContent">Hello! It's nice to meet you. My name is Test-chan.</p>
+   </div> <!-- end of responseBox-->
+   <div id="picture">
+       <img id="sprite" src="images/sprite_default.png"></img>
+   </div> <!-- end of picture-->
+   <div id="inputBox">
+  <!-- <form id="inputForm" action="/action_page.php" method="post"> -->
+       <input type="text" name="inputContent" id="inputArea"/></input>
+       <button type="submit" id="enterButton">
+           <img id="buttonImg" src="images/button.png" height="35">
+       </button>
+   <!--    </form> -->
+    </div> <!-- end of inputBox-->
+    </div> <!-- end of background-->
+ </div> <!-- end of content-->
 </body>
 </html>
